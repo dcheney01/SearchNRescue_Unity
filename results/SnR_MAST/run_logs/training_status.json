@@ -1,0 +1,65 @@
+{
+    "SearchNRescueCollab": {
+        "checkpoints": [
+            {
+                "steps": 999992,
+                "file_path": "results\\SnR_MAST\\SearchNRescueCollab\\SearchNRescueCollab-999992.onnx",
+                "reward": 0.0,
+                "creation_time": 1649738122.370819,
+                "auxillary_file_paths": [
+                    "results\\SnR_MAST\\SearchNRescueCollab\\SearchNRescueCollab-999992.pt"
+                ]
+            },
+            {
+                "steps": 1000020,
+                "file_path": "results\\SnR_MAST\\SearchNRescueCollab\\SearchNRescueCollab-1000020.onnx",
+                "reward": 0.0,
+                "creation_time": 1649738122.6418083,
+                "auxillary_file_paths": [
+                    "results\\SnR_MAST\\SearchNRescueCollab\\SearchNRescueCollab-1000020.pt"
+                ]
+            },
+            {
+                "steps": 1499996,
+                "file_path": "results\\SnR_MAST\\SearchNRescueCollab\\SearchNRescueCollab-1499996.onnx",
+                "reward": 0.0,
+                "creation_time": 1649743956.3348205,
+                "auxillary_file_paths": [
+                    "results\\SnR_MAST\\SearchNRescueCollab\\SearchNRescueCollab-1499996.pt"
+                ]
+            },
+            {
+                "steps": 1999980,
+                "file_path": "results\\SnR_MAST\\SearchNRescueCollab\\SearchNRescueCollab-1999980.onnx",
+                "reward": 0.0,
+                "creation_time": 1649748314.1989496,
+                "auxillary_file_paths": [
+                    "results\\SnR_MAST\\SearchNRescueCollab\\SearchNRescueCollab-1999980.pt"
+                ]
+            },
+            {
+                "steps": 2000018,
+                "file_path": "results\\SnR_MAST\\SearchNRescueCollab\\SearchNRescueCollab-2000018.onnx",
+                "reward": 0.0,
+                "creation_time": 1649748314.4388695,
+                "auxillary_file_paths": [
+                    "results\\SnR_MAST\\SearchNRescueCollab\\SearchNRescueCollab-2000018.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2000018,
+            "file_path": "results\\SnR_MAST\\SearchNRescueCollab.onnx",
+            "reward": 0.0,
+            "creation_time": 1649748314.4388695,
+            "auxillary_file_paths": [
+                "results\\SnR_MAST\\SearchNRescueCollab\\SearchNRescueCollab-2000018.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.11.0+cpu"
+    }
+}

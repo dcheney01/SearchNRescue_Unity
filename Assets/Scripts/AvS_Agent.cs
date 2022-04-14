@@ -13,7 +13,7 @@ public class AvS_Agent : Agent
         Hider,
         Seeker
     }
-    
+
     public Role role;
 
     AvS_SearchNRescueEnvController m_AvS_SearchNRescueEnvController;
@@ -75,14 +75,14 @@ public class AvS_Agent : Agent
     /// </summary>
     public override void OnActionReceived(ActionBuffers actionBuffers)
     {
-        if(role == Role.Hider)
-        {
-            AddReward(-0.0001f);
-        }
-        else if (role == Role.Hider)
-        {
-            AddReward(0.0001f);
-        }
+        // if(role == Role.Hider)
+        // {
+        //     AddReward(-0.0001f);
+        // }
+        // else if (role == Role.Hider)
+        // {
+        //     AddReward(0.0001f);
+        // }
         // Move the agent using the action.
         MoveAgent(actionBuffers.DiscreteActions);
     }

@@ -1,0 +1,65 @@
+{
+    "SearchNRescue": {
+        "checkpoints": [
+            {
+                "steps": 999994,
+                "file_path": "results\\SnR_SAST1\\SearchNRescue\\SearchNRescue-999994.onnx",
+                "reward": 0.6623888808406062,
+                "creation_time": 1649717402.5457757,
+                "auxillary_file_paths": [
+                    "results\\SnR_SAST1\\SearchNRescue\\SearchNRescue-999994.pt"
+                ]
+            },
+            {
+                "steps": 1000030,
+                "file_path": "results\\SnR_SAST1\\SearchNRescue\\SearchNRescue-1000030.onnx",
+                "reward": 0.650965508921393,
+                "creation_time": 1649717402.8161554,
+                "auxillary_file_paths": [
+                    "results\\SnR_SAST1\\SearchNRescue\\SearchNRescue-1000030.pt"
+                ]
+            },
+            {
+                "steps": 1499995,
+                "file_path": "results\\SnR_SAST1\\SearchNRescue\\SearchNRescue-1499995.onnx",
+                "reward": 0.6924981109376224,
+                "creation_time": 1649721180.9010873,
+                "auxillary_file_paths": [
+                    "results\\SnR_SAST1\\SearchNRescue\\SearchNRescue-1499995.pt"
+                ]
+            },
+            {
+                "steps": 1999947,
+                "file_path": "results\\SnR_SAST1\\SearchNRescue\\SearchNRescue-1999947.onnx",
+                "reward": 0.6721153805653254,
+                "creation_time": 1649724937.8625646,
+                "auxillary_file_paths": [
+                    "results\\SnR_SAST1\\SearchNRescue\\SearchNRescue-1999947.pt"
+                ]
+            },
+            {
+                "steps": 2001194,
+                "file_path": "results\\SnR_SAST1\\SearchNRescue\\SearchNRescue-2001194.onnx",
+                "reward": 0.6630299951136113,
+                "creation_time": 1649724946.0538766,
+                "auxillary_file_paths": [
+                    "results\\SnR_SAST1\\SearchNRescue\\SearchNRescue-2001194.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2001194,
+            "file_path": "results\\SnR_SAST1\\SearchNRescue.onnx",
+            "reward": 0.6630299951136113,
+            "creation_time": 1649724946.0538766,
+            "auxillary_file_paths": [
+                "results\\SnR_SAST1\\SearchNRescue\\SearchNRescue-2001194.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.11.0+cpu"
+    }
+}

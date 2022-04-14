@@ -56,14 +56,14 @@ public class AvS_SearchNRescueEnvController : MonoBehaviour
     {
         //Time reward
         seeker.AddReward(-0.001f);
-        hider.AddReward(0.001f);
+        hider.AddReward(0.003f);
 
         m_ResetTimer += 1;
         if (m_ResetTimer >= MaxEnvironmentSteps && MaxEnvironmentSteps > 0)
         {
             //times out so the seeker loses
-            seeker.AddReward(-1f);
-            hider.AddReward(1f);
+            seeker.AddReward(-3f);
+            hider.AddReward(5f);
             
             seeker.EndEpisode();
             hider.EndEpisode();
@@ -81,8 +81,8 @@ public class AvS_SearchNRescueEnvController : MonoBehaviour
     public void TargetFound()
     {
         //Seeker wins
-        seeker.AddReward(1 - (float)m_ResetTimer / MaxEnvironmentSteps);
-        hider.AddReward(-1f);
+        seeker.AddReward(3f);
+        hider.AddReward(-3f);
 
         seeker.EndEpisode();
         hider.EndEpisode();

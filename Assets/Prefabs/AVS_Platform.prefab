@@ -55,8 +55,8 @@ MonoBehaviour:
   hider_Rb: {fileID: 0}
   hider_StartingPos: {x: 0, y: 0, z: 0}
   hider_StartingRot: {x: 0, y: 0, z: 0, w: 0}
-  agentRunSpeed: 3
-  MaxEnvironmentSteps: 3000
+  agentRunSpeed: 6
+  MaxEnvironmentSteps: 4000
   target: {fileID: 8674323320628940886}
   targetRb: {fileID: 0}
   targetFound: {fileID: 0}
