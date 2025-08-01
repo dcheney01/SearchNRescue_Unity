@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Unity Deep RL Search and Rescue
 
 A comprehensive deep reinforcement learning project implementing intelligent agents for search and rescue scenarios in Unity. This project explores multi-agent systems, adversarial training, and emergent behaviors in complex 3D environments.
@@ -53,3 +54,7 @@ The project successfully demonstrated:
 - Effective single-agent navigation and search capabilities
 - Emergent cooperative behaviors in multi-agent scenarios
 - Complex adversarial strategies without explicit programming
+=======
+# SearchNRescue_Unity
+SearchNRescue Reinforcement Learning environment in unity
+>>>>>>> 83f827caf0e26b9cb3dac050af9631ed52ceecfb
